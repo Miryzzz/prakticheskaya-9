@@ -1,0 +1,18 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: Arial, sans-serif; color: #252a35; background: #f7f8fb; line-height: 1.6; }
+.container { width: 90%; max-width: 960px; margin: 0 auto; }
+.header { background: #263f78; color: white; }
+.header-content { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 18px 0; }
+.logo { font-size: 22px; font-weight: bold; }
+a { color: #315fc2; }
+.header a { color: white; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 20px; }
+nav a:hover { text-decoration: underline; }
+.hero { background: #dfe9ff; padding: 65px 0; text-align: center; }
+h1 { margin: 0 0 12px; font-size: 32px; }
+h2 { margin-top: 0; font-size: 26px; }
+.section { padding: 45px 0; }
+.team-image { display: block; max-width: 360px; width: 100%; margin: 25px auto 0; }
+.footer { background: #263f78; color: white; text-align: center; padding: 18px 0; }
+@media (max-width: 600px) { .header-content { flex-direction: column; } h1 { font-size: 26px; } .hero { padding: 45px 0; } }
